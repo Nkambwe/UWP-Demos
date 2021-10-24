@@ -1,0 +1,23 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpExampleApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:System.Numerics"
+    x:Class="UwpExampleApp.MainPage"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="647.793" d:DesignHeight="798.464" Height="400" Width="325">
+    <StackPanel>
+        <Border BorderBrush="DodgerBlue" BorderThickness="1" Margin="20">
+            <TextBlock Text="Sample text" 
+                       Height="57" 
+                       FontSize="30" 
+                       Margin="30,10,20,10"
+                       HorizontalAlignment="Stretch"
+                       FlowDirection="RightToLeft">
+            </TextBlock>
+        </Border>
+        
+    </StackPanel>
+</Page>
